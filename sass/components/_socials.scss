@@ -1,0 +1,60 @@
+// Common //
+
+.socials {
+  @include centeredFlex($justify-content: space-between, $wrap: wrap);
+  width: 206px;
+  height: 44px;
+}
+
+//Our team socials//
+
+.our-team__socials {
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-bottom: 30px;
+}
+.our-team__socials-link {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+
+  &:hover .our-team__socials-icon,
+  &:focus .our-team__socials-icon {
+    fill: $white-color;
+  }
+}
+
+.our-team__socials-icon {
+  fill: $icons-fill-grey;
+  @extend %icon-transition;
+}
+
+//Footer socials//
+
+.footer__socials-link--dark {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+.footer__socials-icon {
+  fill: #fff;
+  @extend %icon-transition;
+}

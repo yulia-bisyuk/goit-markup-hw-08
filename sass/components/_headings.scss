@@ -1,0 +1,53 @@
+.hero__heading {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+  color: $white-color;
+}
+
+.advantages__heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: $heading-txt-color;
+  margin-bottom: 10px;
+}
+
+.studio-work__heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: $heading-txt-color;
+  margin-bottom: 4px;
+}
+
+.footer__heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #fff;
+  margin-bottom: 20px;
+}
+.form__heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $heading-txt-color;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,43 @@
+.our-team {
+  background-color: $bg-color-light-grey;
+}
+
+.our-team__card-set {
+  @extend %card-set-compensation;
+}
+
+.our-team__participant {
+  margin-top: $card-items-gap;
+  margin-left: $card-items-gap;
+  flex-basis: calc((100% - #{$card-items-gap} * 4) / 4);
+
+  background-color: $white-color;
+  border-radius: $corner-radius;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.our-team__participant-foto {
+  margin-bottom: 30px;
+}
+
+.our-team__participant-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+
+  color: $heading-txt-color;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.our-team__participant-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  color: $main-txt-color;
+}

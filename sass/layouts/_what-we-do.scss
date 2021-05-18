@@ -1,0 +1,34 @@
+.what-we-do__card-set {
+  @extend %card-set-compensation;
+}
+
+.what-we-do__item {
+  margin-top: $card-items-gap;
+  margin-left: $card-items-gap;
+  flex-basis: calc((100% - #{$card-items-gap} * 3) / 3);
+}
+
+.what-we-do__item-thumb {
+  position: relative;
+}
+
+.what-we-do__description {
+  @include centeredFlex;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white-color;
+
+  margin: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}

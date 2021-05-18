@@ -1,0 +1,9 @@
+.studio-works__nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.studio-works__nav-item:not(:last-child) {
+  margin-right: 8px;
+}

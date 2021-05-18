@@ -1,0 +1,24 @@
+@import "./utils/variables";
+@import "./utils/common-utils";
+@import "./utils/placeholders";
+@import "./utils/mixins";
+
+@import "./base/common";
+
+@import "./components/buttons";
+@import "./components/logo";
+@import "./components/socials";
+@import "./components/modal";
+@import "./components/headings";
+@import "./components/form";
+@import "./components/backdrop";
+
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/advantages";
+@import "./layouts/what-we-do";
+@import "./layouts/our-team";
+@import "./layouts/clients";
+@import "./layouts/studio-works-nav";
+@import "./layouts/studio-works";
+@import "./layouts/footer";
