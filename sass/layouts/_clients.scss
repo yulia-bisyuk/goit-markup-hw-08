@@ -1,17 +1,52 @@
 .clients__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-}
 
+  @media screen and (min-width: 480px) and (max-width: 1599.98px) {
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+  @media screen and (min-width: 1600px) {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+.clients__list-item {
+  @media screen and (min-width: 480px) and (max-width: 767.98px) {
+    margin-top: $card-items-gap;
+    margin-left: $card-items-gap;
+    flex-basis: calc((100% - #{$card-items-gap} * 2) / 2);
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1599.98px) {
+    margin-top: $card-items-gap;
+    margin-left: $card-items-gap;
+    flex-basis: calc((100% - #{$card-items-gap} * 3) / 3);
+  }
+  @media screen and (min-width: 1600px) {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
 .clients__link {
   display: flex;
-  width: 170px;
+
   height: 92px;
   padding: 16px 32px;
   border-radius: 4px;
   border: 1px solid $icons-fill-grey;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 480px) {
+    justify-content: center;
+    width: 210px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
+  @media screen and (min-width: 1600px) {
+    width: 170px;
+  }
 
   &:hover,
   &:focus {

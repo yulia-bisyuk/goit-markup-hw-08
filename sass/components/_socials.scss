@@ -9,9 +9,12 @@
 //Our team socials//
 
 .our-team__socials {
-  margin-right: 32px;
-  margin-left: 32px;
-  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  // margin-bottom: 30px;
+  // @media screen and (max-width: 1599.98px) {
+  //   margin-bottom: 24px;
+  // }
 }
 .our-team__socials-link {
   display: inline-block;

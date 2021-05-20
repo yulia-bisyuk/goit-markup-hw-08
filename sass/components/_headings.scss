@@ -20,6 +20,24 @@
 
   color: $heading-txt-color;
   margin-bottom: 10px;
+
+  @media screen and (min-width: 480px) {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    text-align: start;
+  }
+}
+
+.our-team__heading,
+.clients__heading {
+  @media screen and (max-width: 1599.98px) {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    margin-bottom: 30px;
+  }
 }
 
 .studio-work__heading {
