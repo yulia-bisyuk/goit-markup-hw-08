@@ -17,4 +17,9 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  @media screen and (max-width: 1599.98px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }

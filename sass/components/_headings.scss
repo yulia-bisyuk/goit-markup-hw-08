@@ -9,6 +9,11 @@
   margin-bottom: 30px;
 
   color: $white-color;
+
+  @media screen and (min-width: 480px) and (max-width: 1599.98px) {
+    font-size: 26px;
+    line-height: 1.62;
+  }
 }
 
 .advantages__heading {

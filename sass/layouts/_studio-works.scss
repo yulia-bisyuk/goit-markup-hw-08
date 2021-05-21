@@ -1,11 +1,38 @@
 .studio-works__card-set {
-  @extend %card-set-compensation;
+  @media screen and (min-width: 480px) {
+    display: block;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
 }
 
 .studio-work__item {
-  margin-top: $card-items-gap;
-  margin-left: $card-items-gap;
-  flex-basis: calc((100% - #{$card-items-gap} * 3) / 3);
+  @media screen and (min-width: 480px) {
+    display: block;
+  }
+
+  &:not(:last-child) {
+    @media screen and (min-width: 480px) and (max-width: 767.98px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-top: $card-items-gap;
+    margin-left: $card-items-gap;
+    flex-basis: calc((100% - #{$card-items-gap} * 2) / 2);
+  }
+
+  @media screen and (min-width: 1600px) {
+    // padding-bottom: 30px;
+    margin-top: $card-items-gap;
+    margin-left: $card-items-gap;
+    flex-basis: calc((100% - #{$card-items-gap} * 3) / 3);
+  }
 }
 
 .studio-work__link {
@@ -23,7 +50,17 @@
   position: relative;
   overflow: hidden;
 }
-
+.studio-work__pic {
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1600px) {
+    width: 370px;
+  }
+}
 .studio-work__overlay {
   position: absolute;
   top: 0;
