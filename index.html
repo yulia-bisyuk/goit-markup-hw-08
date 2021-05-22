@@ -48,8 +48,68 @@
                         </a>
                     </li>
                 </ul>
+
+                
+
+               
             </div>
+
         </header>
+
+        <!-- Мобильное меню -->
+
+        <div class="mobile-menu is-open" data-menu>
+
+            <ul class="mobile-menu__nav">
+                <li class="mobile-menu__nav-item"><a class="mobile-menu__nav-link--current" href="">Студия</a></li>
+                <li class="mobile-menu__nav-item"><a class="mobile-menu__nav-link" href="./portfolio.html">Портфолио</a></li>
+                <li class="mobile-menu__nav-item"><a class="mobile-menu__nav-link" href="">Контакты</a></li>
+            </ul>
+
+            <ul class="mobile-menu__contacts">
+
+                <li class="mobile-menu__contacts-item--phone">
+                    <a class="link mobile-menu__contacts-link--phone" aria-label="Телефон" href="tel:+380961111111">
+                        +38 096 111 11 11
+                    </a>
+                </li>
+                <li class="mobile-menu__contacts-item--mail">
+                    <a class="link mobile-menu__contacts-link--mail" aria-label="Электронная почта" href="mailto:info@devstudio.com">
+                        info@devstudio.com
+                    </a>
+                </li>
+                
+            </ul>
+
+            <ul class="mobile-menu__socials">
+                <li class="mobile-menu__socials-item">
+                    <a class="link mobile-menu__socials-link" href="https://www.instagram.com">Instagram</a>
+                </li>
+                <span class="mobile-menu__socials-decore"></span>
+
+                <li class="mobile-menu__socials-item">
+                    <a class="link mobile-menu__socials-link" href="https://www.twitter.com">Twitter</a>
+                </li>
+                <span class="mobile-menu__socials-decore"></span>
+
+                <li class="mobile-menu__socials-item">
+                    <a class="link mobile-menu__socials-link" href="https://www.facebook.com">Facebook</a>
+                </li>
+                <span class="mobile-menu__socials-decore"></span>
+
+                <li class="mobile-menu__socials-item">
+                    <a class="link mobile-menu__socials-link" href="https://www.linkedin.com">Linkedin</a>
+                </li>
+            </ul>
+            
+        </div>
+
+        <button class="mobile-menu__button is-open" data-mobile-menu__button aria-expanded="true">
+            <svg class="mobile-menu__button-icon" width="40" height="40" aria-label="Переключатель мобильного меню">
+                <use class="mobile-menu__button-icon-burger" href="./images/sprite.svg#icon-menu"></use>
+                <use class="mobile-menu__button-icon-cross" href="./images/sprite.svg#icon-cross"></use>
+            </svg>
+        </button>
 
         <!-- Основоной контент -->
         <main>
@@ -461,6 +521,7 @@
     </div>
 </div>
 <script src="js/modal.js"></script>
+<script src="js/mobile-menu.js"></script>
 </body>
 
 </html>
