@@ -3,6 +3,7 @@
 }
 
 .mobile-menu.is-open {
+  z-index: 100;
   display: block;
   position: fixed;
   top: 0;
@@ -102,6 +103,5 @@
 }
 .mobile-menu__socials-decore {
   border: 1px solid rgba(33, 33, 33, 0.2);
-  //   width: 1px;
   height: 22px;
 }
