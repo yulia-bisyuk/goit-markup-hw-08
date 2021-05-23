@@ -66,7 +66,7 @@
     background-color: $white-color;
     color: $accent-color;
   }
-  @media screen and (max-width: 1599.98px) {
+  @media screen and (max-width: 1199.98px) {
     margin-left: auto;
     margin-right: auto;
   }
@@ -92,7 +92,7 @@
   margin-right: auto;
 }
 .mobile-menu__button {
-  z-index: 100;
+  z-index: 150;
 
   padding: 0;
   width: 40px;
@@ -101,10 +101,15 @@
   border: 0;
   background-color: transparent;
   position: absolute;
-  top: 21px;
-  right: 24px;
+  top: 25%;
+  right: 3%;
 
   @media screen and (min-width: 768px) {
     display: none;
+  }
+  &.is-open {
+    position: fixed;
+    top: 2%;
+    right: 3%;
   }
 }

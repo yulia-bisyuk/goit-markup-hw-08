@@ -10,8 +10,9 @@
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
+  position: relative;
 
-  @media screen and (min-width: 768px) and (max-width: 1599.98px) {
+  @media screen and (min-width: 768px) {
     justify-content: space-between;
   }
 }
@@ -62,7 +63,7 @@
     @media screen and (min-width: 768px) {
       bottom: -36px;
     }
-    @media screen and (min-width: 1600px) {
+    @media screen and (min-width: 1200px) {
       bottom: -32px;
     }
   }
@@ -92,7 +93,7 @@
     justify-content: space-between;
   }
 
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     flex-direction: row;
     align-items: center;
   }
@@ -102,7 +103,7 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 10px;
   }
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     margin-right: 50px;
     margin-bottom: 0;
   }

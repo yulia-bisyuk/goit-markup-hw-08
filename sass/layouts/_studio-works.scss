@@ -1,7 +1,6 @@
 .studio-works__card-set {
-  @media screen and (min-width: 480px) {
-    display: block;
-  }
+  display: block;
+
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
@@ -11,12 +10,10 @@
 }
 
 .studio-work__item {
-  @media screen and (min-width: 480px) {
-    display: block;
-  }
+  display: block;
 
   &:not(:last-child) {
-    @media screen and (min-width: 480px) and (max-width: 767.98px) {
+    @media screen and (max-width: 767.98px) {
       margin-bottom: 30px;
     }
   }
@@ -28,8 +25,7 @@
     flex-basis: calc((100% - #{$card-items-gap} * 2) / 2);
   }
 
-  @media screen and (min-width: 1600px) {
-    // padding-bottom: 30px;
+  @media screen and (min-width: 1200px) {
     margin-top: $card-items-gap;
     margin-left: $card-items-gap;
     flex-basis: calc((100% - #{$card-items-gap} * 3) / 3);
@@ -53,13 +49,14 @@
   overflow: hidden;
 }
 .studio-work__pic {
-  @media screen and (min-width: 480px) {
-    width: 450px;
-  }
+  width: 100%;
+  // @media screen and (min-width: 480px) {
+  //   width: 450px;
+  // }
   @media screen and (min-width: 768px) {
     width: 354px;
   }
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     width: 370px;
   }
 }

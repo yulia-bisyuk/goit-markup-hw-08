@@ -64,7 +64,9 @@
 .mobile-menu__nav-link--current {
   color: $accent-color;
 }
-
+.is-open .mobile-menu {
+  display: none;
+}
 .mobile-menu__contacts {
   margin-bottom: 64px;
 }
@@ -91,6 +93,11 @@
 .mobile-menu__socials {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+
+  @media screen and (min-width: 480px) and (max-width: 767.98px) {
+    width: 357px;
+  }
 }
 
 .mobile-menu__socials-link {

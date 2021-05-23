@@ -13,7 +13,7 @@
     width: 768px;
   }
 
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     width: 1200px;
   }
 }
@@ -31,17 +31,6 @@
 
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.section__heading {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.166;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: $heading-txt-color;
-  margin-bottom: 50px;
 }
 
 .visually-hidden {

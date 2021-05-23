@@ -1,7 +1,7 @@
 .hero__heading {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.62;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-left: auto;
@@ -10,9 +10,9 @@
 
   color: $white-color;
 
-  @media screen and (min-width: 480px) and (max-width: 1599.98px) {
-    font-size: 26px;
-    line-height: 1.62;
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.36;
   }
 }
 
@@ -25,10 +25,7 @@
 
   color: $heading-txt-color;
   margin-bottom: 10px;
-
-  @media screen and (min-width: 480px) {
-    text-align: center;
-  }
+  text-align: center;
 
   @media screen and (min-width: 768px) {
     text-align: start;
@@ -36,12 +33,21 @@
 }
 
 .our-team__heading,
-.clients__heading {
-  @media screen and (max-width: 1599.98px) {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 1.17;
-    margin-bottom: 30px;
+.clients__heading,
+.what-we-do__heading {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: $heading-txt-color;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: 1.16;
+    argin-bottom: 50px;
   }
 }
 
