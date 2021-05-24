@@ -4,9 +4,6 @@
   margin-top: -30px;
   margin-left: -30px;
 
-  // @media screen and (min-width: 480px) and (max-width: 1199.98px) {
-
-  // }
   @media screen and (min-width: 1200px) {
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -14,6 +11,7 @@
     margin-left: 0;
   }
 }
+
 .clients__list-item {
   @media screen and (max-width: 767.98px) {
     margin-top: $card-items-gap;
@@ -25,7 +23,6 @@
     margin-top: $card-items-gap;
     margin-left: $card-items-gap;
     flex-basis: calc((100% - #{$card-items-gap} * 3) / 3);
-    // and (min-width: 768px)
   }
   @media screen and (min-width: 1200px) {
     margin-top: 0;

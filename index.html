@@ -16,6 +16,7 @@
 
 <body>
         <!-- Шапка сайта -->
+
         <header class="header">
             <div class="container header__container">
                 
@@ -114,6 +115,7 @@
         <main>
 
             <!-- Герой -->
+
             <section class="section hero">
                 <div class="container">
                 <h1 class="hero__heading">Эффективные решения <br/>для вашего бизнеса</h1>
@@ -123,6 +125,7 @@
             
 
             <!-- Преимущества -->
+
             <section class="section advantages">
             <div class="container">
                         <h2 class="visually-hidden">Преимущества</h2>  
@@ -176,21 +179,46 @@
 
                     <li class="what-we-do__item">
                         <div class="what-we-do__item-thumb">
-                            <img src="./images/box1.jpg" alt="Человек печатает на клавиатуре" width="370">
+                            <picture>
+                                <source srcset="./images/desktop/what-we-do/what-we-do1-desktop.webp 1x, ./images/desktop/what-we-do/what-we-do1-desktop@2x.webp 2x" media="(min-width: 1200px)" type="image/webp">
+                                <source
+                                    srcset="./images/desktop/what-we-do/what-we-do1-desktop.jpg 1x, ./images/desktop/what-we-do/what-we-do1-desktop@2x.jpg 2x"
+                                    media="(min-width: 1200px)" type="image/jpg">
+                                <img src="./images/desktop/what-we-do/what-we-do1-desktop.jpg" alt="Человек печатает на клавиатуре" width="370">
+                            </picture>
                             <p class="what-we-do__description">Десктопные приложения</p>
                         </div>
                     </li>
 
                     <li class="what-we-do__item">
                         <div class="what-we-do__item-thumb">
-                            <img src="./images/box2.jpg" alt="Человек синхронизирует телефон с компютером" width="370">
+                            <picture>
+                                <source
+                                    srcset="./images/desktop/what-we-do/what-we-do2-desktop.webp 1x, ./images/desktop/what-we-do/what-we-do2-desktop@2x.webp 2x"
+                                    media="(min-width: 1200px)" type="image/webp">
+                                <source
+                                    srcset="./images/desktop/what-we-do/what-we-do2-desktop.jpg 1x, ./images/desktop/what-we-do/what-we-do2-desktop@2x.jpg 2x"
+                                    media="(min-width: 1200px)" type="image/jpg">
+                                <img src="./images/desktop/what-we-do/what-we-do1-desktop.jpg" alt="Человек синхронизирует телефон с компютером" width="370">
+                            </picture>
+                    
                             <p class="what-we-do__description">Мобильные приложения</p>
                         </div>
                     </li>
 
                     <li class="what-we-do__item">
                         <div class="what-we-do__item-thumb">
-                            <img src="./images/box3.jpg" alt="Палитра цветов на планшете" width="370">
+                        <picture>
+                            <source
+                                srcset="./images/desktop/what-we-do/what-we-do3-desktop.webp 1x, ./images/desktop/what-we-do/what-we-do3-desktop@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
+                            <source
+                                srcset="./images/desktop/what-we-do/what-we-do3-desktop.jpg 1x, ./images/desktop/what-we-do/what-we-do3-desktop@2x.jpg 2x"
+                                media="(min-width: 1200px)" type="image/jpg">
+                            <img src="./images/desktop/what-we-do/what-we-do1-desktop.jpg" alt="Палитра цветов на планшете"
+                                width="370">
+                        </picture>
+                           
                             <p class="what-we-do__description">Дизайнерские решения</p>
                         </div>
                     </li>
@@ -204,7 +232,24 @@
                 <h2 class="section__heading our-team__heading">Наша команда</h2>
                 <ul class="card-set our-team__card-set">
                     <li class="our-team__participant">
-                        <img class="our-team__participant-foto" src="./images/igor-demianenko.jpg" alt="Фото участника команды" width="270">
+                        <picture>
+                            <source srcset="./images/desktop/team/ourteam1-desktop.webp 1x, ./images/desktop/team/ourteam1-desktop@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
+                            <source srcset="./images/tablet/team/ourteam1-tabl.webp 1x, ./images/tablet/team/ourteam1-tabl@2x.webp 2x"
+                                media="(min-width: 768px)" type="image/webp">
+                            <source srcset="./images/mobile/team/ourteam1-mob.webp 1x, ./images/mobile/team/ourteam1-mob@2x.webp 2x"
+                                media="(max-width: 767.98px)" type="image/webp">
+                            <source
+                                srcset="./images/desktop/team/ourteam1-desktop.jpg 1x, ./images/desktop/team/ourteam1-desktop@2x.jpg 2x"
+                                media="(min-width: 1200px)" type="image/jpg">
+                            <source srcset="./images/tablet/team/ourteam1-tabl.jpg 1x, ./images/desktop/team/ourteam1-tabl@2x.jpg 2x"
+                                media="(min-width: 768px)" type="image/jpg">
+                            <source srcset="./images/mobile/team/ourteam1-mob.jpg 1x, ./images/mobile/team/ourteam1-mob@2x.jpg 2x"
+                                media="(max-width: 767.98px)" type="image/jpg">
+                            <img class="our-team__participant-foto" src="./images/mobile/team/ourteam1-mob.jpg" alt="Фото участника команды" width="270">
+                        </picture>
+                        
+                        
                         <h3 class="our-team__participant-name">Игорь Демьяненко</h3>
                         <p class="our-team__participant-position">Product Designer</p>
                         
@@ -241,7 +286,23 @@
                     </li>
 
                     <li class="our-team__participant">
-                        <img class="our-team__participant-foto" src="./images/olga-repina.jpg" alt="Фото участника команды" width="270">
+                        <picture>
+                            <source srcset="./images/desktop/team/ourteam2-desktop.webp 1x, ./images/desktop/team/ourteam2-desktop@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
+                            <source srcset="./images/tablet/team/ourteam2-tabl.webp 1x, ./images/tablet/team/ourteam2-tabl@2x.webp 2x"
+                                media="(min-width: 768px)" type="image/webp">
+                            <source srcset="./images/mobile/team/ourteam2-mob.webp 1x, ./images/mobile/team/ourteam2-mob@2x.webp 2x"
+                                media="(max-width: 767.98px)" type="image/webp">
+                            <source srcset="./images/desktop/team/ourteam2-desktop.jpg 1x, ./images/desktop/team/ourteam2-desktop@2x.jpg 2x"
+                                media="(min-width: 1200px)" type="image/jpg">
+                            <source srcset="./images/tablet/team/ourteam2-tabl.jpg 1x, ./images/desktop/team/ourteam2-tabl@2x.jpg 2x"
+                                media="(min-width: 768px)" type="image/jpg">
+                            <source srcset="./images/mobile/team/ourteam2-mob.jpg 1x, ./images/mobile/team/ourteam2-mob@2x.jpg 2x"
+                                media="(max-width: 767.98px)" type="image/jpg">
+                            <img class="our-team__participant-foto" src="./images/mobile/team/ourteam2-mob.jpg" alt="Фото участника команды"
+                                width="270">
+                        </picture>
+                        
                         <h3 class="our-team__participant-name">Ольга Репина</h3>
                         <p class="our-team__participant-position">Frontend Developer</p>
                         <ul class="socials our-team__socials">
@@ -278,7 +339,23 @@
                     
 
                     <li class="our-team__participant">
-                        <img class="our-team__participant-foto" src="./images/nikolai-tarasov.jpg" alt="Фото участника команды" width="270">
+                        <picture>
+                            <source srcset="./images/desktop/team/ourteam3-desktop.webp 1x, ./images/desktop/team/ourteam3-desktop@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
+                            <source srcset="./images/tablet/team/ourteam3-tabl.webp 1x, ./images/tablet/team/ourteam3-tabl@2x.webp 2x"
+                                media="(min-width: 768px)" type="image/webp">
+                            <source srcset="./images/mobile/team/ourteam3-mob.webp 1x, ./images/mobile/team/ourteam3-mob@2x.webp 2x"
+                                media="(max-width: 767.98px)" type="image/webp">
+                            <source srcset="./images/desktop/team/ourteam3-desktop.jpg 1x, ./images/desktop/team/ourteam3-desktop@2x.jpg 2x"
+                                media="(min-width: 1200px)" type="image/jpg">
+                            <source srcset="./images/tablet/team/ourteam3-tabl.jpg 1x, ./images/desktop/team/ourteam3-tabl@2x.jpg 2x"
+                                media="(min-width: 768px)" type="image/jpg">
+                            <source srcset="./images/mobile/team/ourteam3-mob.jpg 1x, ./images/mobile/team/ourteam3-mob@2x.jpg 2x"
+                                media="(max-width: 767.98px)" type="image/jpg">
+                            <img class="our-team__participant-foto" src="./images/mobile/team/ourteam3-mob.jpg" alt="Фото участника команды"
+                                width="270">
+                        </picture>
+                        
                         <h3 class="our-team__participant-name">Николай Тарасов</h3>
                         <p class="our-team__participant-position">Marketing</p>
                         <ul class="socials our-team__socials">
@@ -314,7 +391,23 @@
                     </li>
 
                     <li class="our-team__participant">
-                        <img class="our-team__participant-foto" src="./images/mikhail-ermakov.jpg" alt="Фото участника команды" width="270">
+                        <picture>
+                            <source srcset="./images/desktop/team/ourteam4-desktop.webp 1x, ./images/desktop/team/ourteam4-desktop@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
+                            <source srcset="./images/tablet/team/ourteam4-tabl.webp 1x, ./images/tablet/team/ourteam4-tabl@2x.webp 2x"
+                                media="(min-width: 768px)" type="image/webp">
+                            <source srcset="./images/mobile/team/ourteam4-mob.webp 1x, ./images/mobile/team/ourteam4-mob@2x.webp 2x"
+                                media="(max-width: 767.98px)" type="image/webp">
+                            <source srcset="./images/desktop/team/ourteam4-desktop.jpg 1x, ./images/desktop/team/ourteam4-desktop@2x.jpg 2x"
+                                media="(min-width: 1200px)" type="image/jpg">
+                            <source srcset="./images/tablet/team/ourteam4-tabl.jpg 1x, ./images/desktop/team/ourteam4-tabl@2x.jpg 2x"
+                                media="(min-width: 768px)" type="image/jpg">
+                            <source srcset="./images/mobile/team/ourteam4-mob.jpg 1x, ./images/mobile/team/ourteam4-mob@2x.jpg 2x"
+                                media="(max-width: 767.98px)" type="image/jpg">
+                            <img class="our-team__participant-foto" src="./images/mobile/team/ourteam4-mob.jpg" alt="Фото участника команды"
+                                width="270">
+                        </picture>
+                    
                         <h3 class="our-team__participant-name">Михаил Ермаков</h3>
                         <p class="our-team__participant-position">UI Designer</p>
                         <ul class="socials our-team__socials">
