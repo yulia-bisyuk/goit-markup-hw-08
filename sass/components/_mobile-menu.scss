@@ -4,7 +4,9 @@
 
 .mobile-menu.is-open {
   z-index: 100;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
@@ -46,7 +48,6 @@
   font-size: 40px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  margin-bottom: 302px;
 }
 
 .mobile-menu__nav-item:not(:last-child) {
@@ -67,6 +68,9 @@
 .is-open .mobile-menu {
   display: none;
 }
+// .mobile-menu__contacts-wrapper {
+//   display: block;
+// }
 .mobile-menu__contacts {
   margin-bottom: 64px;
 }
