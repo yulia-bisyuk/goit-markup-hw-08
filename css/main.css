@@ -194,7 +194,7 @@ a {
 }
 
 .mobile-menu__button {
-  z-index: 150;
+  z-index: 101;
   padding: 0;
   width: 40px;
   height: 40px;
@@ -576,6 +576,7 @@ a {
 
 .backdrop {
   position: fixed;
+  z-index: 105;
   top: 0;
   left: 0;
   width: 100%;
@@ -985,24 +986,6 @@ a {
   height: 120px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
-}
-
-@media screen and (min-width: 480px) {
-  .advantages__icon-thumb {
-    width: 450px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .advantages__icon-thumb {
-    width: 354px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .advantages__icon-thumb {
-    width: 270px;
-  }
 }
 
 .advantages__text {
